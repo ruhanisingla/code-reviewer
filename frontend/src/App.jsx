@@ -38,7 +38,7 @@ function App() {
          <Editor
   value={code}
   onValueChange={setCode}
-  highlight={code => Prism.highlight(code, Prism.languages.javascript, "javascript")}
+  highlight={code => prism.highlight(code, prism.languages.javascript, "javascript")}
   padding={12}
   style={{
     fontFamily: '"Fira code", "Fira Mono", monospace',
